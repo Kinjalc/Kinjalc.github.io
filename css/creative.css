@@ -257,7 +257,9 @@ header .header-content .header-content-inner p {
 .service-box p {
     margin-bottom: 0;
 }
-
+.col-lg-4 .col-sm-6{
+    height: 400px;
+}
 .portfolio-box {
     display: block;
     position: relative;
@@ -290,14 +292,16 @@ header .header-content .header-content-inner p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 10px 15px;
+    padding: 10px 15px 10px 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
+
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
+
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
@@ -311,6 +315,7 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
+
     }
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
@@ -473,4 +478,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1.5;
 }
