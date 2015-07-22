@@ -121,7 +121,16 @@ aside {
     background-color: transparent;
 }
 
+@media (max-width: 480px) {
+    .portfolio-box .portfolio-box-caption {
+        opacity: 1 !important;
+        height: 420px !important;
+        position: relative !important;
+    }
+}
 @media(min-width:768px) {
+
+
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
